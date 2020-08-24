@@ -1,6 +1,4 @@
-import React from "react";
-
-export default class API {
+class API {
   async getCharacter(id) {
     const response = await fetch(
       `https://rickandmortyapi.com/api/character/${id}`
@@ -9,3 +7,7 @@ export default class API {
     return data;
   }
 }
+
+const api = new API();
+
+export default api;
