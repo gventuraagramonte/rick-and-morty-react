@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 const NextStyled = styled.div`
   cursor: pointer;
   /* border: 1px solid red; */
-  background-image: url("/images/arrow.svg");
+  background-image: url("./images/arrow.svg");
   background-repeat: no-repeat;
   background-position: left bottom;
   flex: 1;

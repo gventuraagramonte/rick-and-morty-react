@@ -10,7 +10,7 @@ const LogoStyles = styled.img`
   }
 `;
 function Logo() {
-  return <LogoStyles src="/images/logo@2x.png" width="280" alt="" />;
+  return <LogoStyles src="./images/logo@2x.png" width="280" alt="" />;
 }
 
 export default Logo;

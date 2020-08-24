@@ -18,14 +18,14 @@ const SocialStyled = styled.div`
 function Social() {
   return (
     <SocialStyled>
-      <a href="https://instagram.com/LeonidasEsteban">
-        <img src="/images/instagram.svg" alt="" />
+      <a href="https://www.instagram.com/giorgioventuraa" target="_blank">
+        <img src="./images/instagram.svg" alt="" />
       </a>
-      <a href="https://facebook.com/LeonidasEsteban">
-        <img src="/images/facebook.svg" alt="" />
+      <a href="https://www.facebook.com/giorgioventuraa" target="_blank">
+        <img src="./images/facebook.svg" alt="" />
       </a>
-      <a href="https://twitter.com/LeonidasEsteban">
-        <img src="/images/twitter.svg" alt="" />
+      <a href="https://twitter.com/gventuraAG" target="_blank">
+        <img src="./images/twitter.svg" alt="" />
       </a>
     </SocialStyled>
   );
